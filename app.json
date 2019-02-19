@@ -2,9 +2,13 @@
   "addons": [
 
   ],
-  "buildpacks": [
-      "url": "heroku/nodejs"
-  ],
+ "buildpacks": [
+  {
+    "url": "https://github.com/heroku/salesforce-cli-buildpack#v3"
+  },
+  {
+    "url": "https://github.com/heroku/salesforce-buildpack#v2"
+  },
   "env": {
   },
   "formation": {
